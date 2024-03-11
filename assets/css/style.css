@@ -31,9 +31,7 @@ header nav ul {
         align-items: center;
         position: relative; 
 }
-.box-logo-header {
-    
-}
+
 .header-navigation {
     display: none;
 }
@@ -310,4 +308,144 @@ header nav ul {
         font-size: 1.2em;
     }
      
+}
+@media screen and (min-width: 1125px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: 3.5em;
+        border-bottom: 0.1em solid #ebe3e3; 
+        
+    }
+    .header-navigation{
+        display: block;
+        margin: 0 4em;
+       padding-right: 12em;
+     
+      
+      
+    }
+
+    .header-navigation ul{
+        height: 3em;
+       
+        
+        align-items: center;
+        display: flex;
+        gap: 2em;
+        text-decoration: none;
+
+    }
+    .header-navigation ul li a {
+ 
+        display: flex;
+        font-family: "Inter", sans-serif;
+        
+        text-decoration: none;
+        color: var(--grey);
+        font-size: 0.9em;
+      
+
+    }
+    .box-logo-header {
+       
+      margin-right: 8em;
+    }
+    .menu-content button {
+  
+        width: 13em;
+        background-color: var(--cyan);
+        height: 2.7em;
+        margin-right: 4em;
+        border-radius: 0.5vh; 
+        color:var(--white);
+        cursor: pointer;
+        border: none;
+       
+    }
+    .menu button {
+        display: block;
+    }
+    .btn-open-menu i{
+        display: none;
+        
+    }    
+    .search-cat-section{
+        min-height: 64em;
+    }
+    .container {
+        margin-top: 5em;
+    }
+    .container .section-title h1  {
+        font-size: 3em;
+    }
+    .container .main-title h1 {
+        font-size: 3em;
+    }
+    .search-form  {
+        margin-top: 7em;
+        height: 3.3em;
+        align-items: center;
+    }
+    .input-control {
+        height: 2em;
+        font-size: 1em;
+        width: 54%;
+    
+     }
+     .search-form button {       
+         width: 7.5em;
+         font-size: 1em;
+         
+     }
+    .image-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px
+        
+     }
+     .img-1 , .img-2{
+       
+        width: 32em;
+       
+    }
+    
+    .image-container img{
+        width: 27em;
+        padding: 2em;
+        height: 34em;
+    }
+    .services-section {
+        min-height: 70em;
+    }
+    .services-section-title  {
+        margin-top: 3em;
+    }
+    .display-grid {
+        padding-top: 0.6em;
+        display: grid;
+        justify-items: center;
+        gap: 1.4em;
+        grid-template-columns: 1fr 1fr 1fr ;
+     
+    }
+    
+   .grid {
+    padding-top: 4em;
+}
+.q4 {
+   
+    grid-column: 1 / 3; 
+    grid-row: 2 / 4; 
+}
+
+.q5 {
+   
+    grid-column: 2 / 4; 
+    grid-row: 2 / 4; 
+}
 }
