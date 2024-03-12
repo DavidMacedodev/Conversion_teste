@@ -65,3 +65,18 @@ form.addEventListener('submit', async (event) => {
 })
 
 renderCat('cypr');
+
+const btnMenu = document.getElementById("btn-menu");
+const menuMobile = document.getElementById("menu-mobile");
+const overlayMenu = document.getElementById("overlay-menu");
+btnMenu.addEventListener('click', () => {
+    menuMobile.classList.add('open-menu');
+});
+
+menuMobile.addEventListener('click', () => {
+    menuMobile.classList.remove('open-menu');
+});
+
+overlayMenu.addEventListener('click', () => {
+    menuMobile.classList.remove('open-menu');
+});
